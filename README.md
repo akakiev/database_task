@@ -9,48 +9,20 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-# ATM Management System using C++
+# CASE 6
 
-ATMs are Automated Teller Machines that are used to carry day-to-day financial transactions. ATMs can be used to withdraw money or to deposit money or even to know the information of an account like the balance amount, etc. They are convenient and easy to use,and  it allows consumers to perform quick self-service transactions.
-
-In this article, we will discuss the ATM Management System in C++ which is an application that provides users with every aspect that an actual Automated Teller Machine i.e., ATM should have. It is a menu-driven program having ATM functions which include:
+“Martial Arts R Us” (MARU) needs a database. MARU is a martial arts school with hundreds of students. The database must keep track of all the classes that are offered, who is assigned to teach each class, and which students attend each class. Also, it is important to track the progress of each student as they advance. Create a complete Crow’s Foot ERD for these requirements:
 
 </header>
-
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
-  TBD-step-1-notes.
--->
-
-<!--
-_Welcome to "TBD-course-name"! :wave:_
-
-TBD-step-1-information
-
-**What is _TBD-term-1_**: TBD-definition-1
-
-### :keyboard: Activity: TBD-step-1-name
--->
-1. Enter Name, Account number, Account type to be shown during transactions.
-2. Shows the information about the person who is doing the transaction.
-3. Enter amount to deposited in the account.
-4. Shows the Balance in the account.
-5. Enter amount to be withdrawn from the account, and then it shows available balance.
-6. Cancel the transaction.
-
-## Approach:
-This program uses basic concepts of class, Access Modifiers in C++, data types, variables, Switch Case, etc. Below are the functionalities that are to be implemented:
-1. <b>setvalue()</b>: This function is used here to set the data using basic input and output method in C++ i.e., cout and cin statements which display and take input from the keyboard i.e., from the user respectively.
-2. <b>showvalue()</b>: This function is used to print the data.
-3. <b>deposit()</b>: This function helps to deposit money in a particular account.
-4. <b>showbal()</b>: This function shows the total balance available after deposition.
-5. <b>withdrawl()</b>: This function helps to withdraw money from the account.
-
-<b>Automated Teller Machine (ATM)</b> also known as ABM (Automated Banking Machine) is a banking system. This banking system allows customers or users to have access to financial transactions. These transactions can be done in public space without any need for a clerk, cashier, or bank teller. 
+<li>	Students are given a student number when they join the school. The number is stored along with their name, date of birth, and the date they joined the school.</li>
+<li>	All instructors are also students, but clearly not all students are instructors. In addition to the normal student information, for all instructors, the date that they start working as an instructor must be recorded along with their instructor status (compensated or volunteer).</li>
+<li>	An instructor may be assigned to teach any number of classes, but each class has one and only one assigned instructor. Some instructors, especially volunteer instructors, may not be assigned to any class.</li>
+<li>	A class is offered for a specific level at a specific time, day of the week, and loca- tion. For example, one class taught on Mondays at 5:00 p.m. in Room 1 is an intermediate-level class. Another class taught on Mondays at 6:00 p.m. in Room 1 is a beginner-level class. A third class taught on Tuesdays at 5:00 p.m. in Room 2 is an advanced-level class.</li>
+<li>	Students may attend any class of the appropriate level during each week, so there is no expectation that any particular student will attend any particular class ses- sion. Therefore, the attendance of students at each individual class meeting must be tracked.</li>
+<li>	A student will attend many different class meetings, and each class meeting is normally attended by many students. Some class meetings may not be attended by any students. New students may not have attended any class meetings yet.</li>
+<li>	At any given meeting of a class, instructors other than the assigned instructor may show up to help. Therefore, a given class meeting may have a head instructor and many assistant instructors, but it will always have at least the one instructor who is assigned to that class. For each class meeting, the date of the class and the instructors’ roles (head instructor or assistant instructor) need to be recorded. For example, Mr. Jones is assigned to teach the Monday, 5:00 p.m., intermediate class in Room 1. During a particular meeting of that class, Mr. Jones was the head instructor and Ms. Chen served as an assistant instructor.</li>
+<li>	Each student holds a rank in the martial arts. The rank name, belt color, and rank requirements are stored. Most ranks have numerous rank requirements, but each requirement is associated with only one particular rank. All ranks except white belt have at least one requirement.</li>
+<li>	A given rank may be held by many students. While it is customary to think of a student as having a single rank, it is necessary to track each student’s progress through the ranks. Therefore, every rank that a student attains is kept in the sys- tem. New students joining the school are automatically given the rank of white belt. The date that a student is awarded each rank should be kept in the system. All ranks have at least one student who has achieved that rank at some time.</li>
 
 <footer>
 
